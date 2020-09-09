@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--主要内容  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="#AFB42B"
+            android:orientation="horizontal">
+
+
+            <!--下拉框选择身份  -->
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/spinner1"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_weight="1"
+                android:text="您的身份"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+            <!--
+            <TextView
+                android:id="@+id/spinner"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                 />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:id="@+id/spinner1"></Spinner>
+
+            -->
+
+            <!-- 显示搜索框 -->
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="14dp"
+                android:layout_toRightOf="@+id/textView1"
+
+                android:textColor="#FFFFFF"
+                android:textSize="30dp" />
+
+            <SearchView
+                android:id="@+id/word"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/search_shape"
+                android:singleLine="true" >
+            </SearchView>
+        </LinearLayout>
+        <!--课程  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:background="#455A64"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/zhaoshang" />
+
+        </LinearLayout>
+        <include layout="@layout/index_toutiao_scroll" />
+        <include layout="@layout/index_teacher" />
+    </LinearLayout>
+    <!--热门名师  -->
+    <include layout="@layout/famous_teacher" />
+</LinearLayout>

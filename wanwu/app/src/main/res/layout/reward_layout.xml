@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#E8E8E8"
+  android:layout_height="match_parent">
+  <include layout="@layout/reward_top"/>
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="40dp"
+      android:orientation="horizontal" >
+      <LinearLayout 
+          android:layout_width="0dp"
+          android:layout_weight="3"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+      <ImageView 
+          android:layout_width="35dp"
+          android:id="@+id/reward_image"
+          android:layout_height="35dp"
+          android:layout_marginLeft="20dp"
+          android:src="@drawable/reward"/>
+      </LinearLayout>
+       <TextView 
+          android:id="@+id/jine"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="wrap_content"
+          android:textColor="#8B8B7A"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="5dp"
+          android:textSize="16sp"
+          android:text="金额"/>
+       <TextView 
+          android:id="@+id/endtime"
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="wrap_content"
+          android:textColor="#8B8B7A"
+          android:layout_marginTop="8dp"
+          android:layout_marginLeft="10dp"
+          android:textSize="16sp"
+          android:text="到期时间"/>
+  	   </LinearLayout>   
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#E8E8E8"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
+	  android:layout_width="match_parent"
+	  android:layout_height="51dp"
+	  android:background="#11cd6e"
+	  android:orientation="horizontal">
+	  <!--返回箭头  -->
+	  <ImageView
+	      android:layout_width="1dp"
+	      android:layout_weight="0.5"
+	      android:layout_height="30dp"
+	      android:layout_marginTop="10dp"
+	      android:contentDescription="@string/app_name"
+	      android:src="@drawable/arrowleft" />
+	  <!--标题  -->
+	  <LinearLayout
+	      android:layout_width="0dp"
+		  android:layout_weight="5"
+	      android:layout_height="50dp"
+	      android:orientation="vertical">
+		 <TextView
+			  android:layout_width="wrap_content"
+			  android:layout_gravity="center"
+		      android:layout_height="wrap_content"
+		      android:textSize="20sp"
+		      android:textColor="#FFFFFF"
+		      android:layout_marginTop="14dp"
+		      android:layout_marginRight="17dp"
+		      android:text="学习计划"/>
+		 </LinearLayout>
+  </LinearLayout>	
+  <!--间隔线  -->
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="#CFCFCF" />
+  <CalendarView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:firstDayOfWeek="2"
+      android:shownWeekCount="4"
+      android:id="@+id/calendview"/>
+</LinearLayout>

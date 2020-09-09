@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:background="#11cd6e"
+  android:layout_height="30dp">
+      <TextView 
+ 		  android:layout_width="0dp"
+          android:layout_weight="2.7"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:layout_marginLeft="10dp"
+          android:textColor="#FFFFFF"
+          android:text="奖学券"/>
+  		<TextView 
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="wrap_content"
+          android:textSize="18sp"
+          android:textColor="#FFFFFF"
+          android:text="金额"/>
+  		<TextView 
+          android:layout_width="0dp"
+          android:layout_weight="1.5" 
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:textSize="18sp"
+          android:textColor="#FFFFFF"
+          android:text="到期时间"/>   
+</LinearLayout>

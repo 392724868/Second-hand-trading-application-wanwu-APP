@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">wanwu</string>
+    <string-array name="shenfen">
+        <item>买家</item>
+        <item>卖家</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+{
+    "code": 200,
+    "datas": [
+        {
+            "goods": [
+                {
+                    "goods_id": "111111",
+                    "goods_image": "https://album.u17i.com/image/2011/03/21/f1/120099_9266_47713_3ceL.jpg",
+                    "goods_name": "Pokemon(套装)(两个对折)",
+                    "goods_num": "1",
+                    "goods_price": "198.00"
+                }
+            ],
+            "store_id": "1",
+            "store_name": "王振威的百货超市"
+        },
+        {
+            "goods": [
+                {
+                    "goods_id": "222221",
+                    "goods_image": "https://img14.360buyimg.com/n1/jfs/t1/20137/12/2128/508593/5c19bc64E34b0082b/2222359dff4f7f81.jpg",
+                    "goods_name": "DickiesLOGO 双肩包情侣款学生书包多色潮流背包",
+                    "goods_num": "2",
+                    "goods_price": "159.00"
+                },
+                {
+                    "goods_id": "222222",
+                    "goods_image": "https://g-search1.alicdn.com/img/bao/uploaded/i4/1978659143/TB2tKqDchXkpuFjy0FiXXbUfFXa_!!1978659143.jpg_300x300.jpg",
+                    "goods_name": "JanSport杰斯伯双肩包女学生书包男背包运动休闲背包4QUT",
+                    "goods_num": "2",
+                    "goods_price": "228.00"
+                }
+            ],
+            "store_id": "2",
+            "store_name": "何子康的小地摊"
+        },
+        {
+            "goods": [
+                {
+                    "goods_id": "333331",
+                    "goods_image": "https://www.chanel.cn/fnbv3/image/full/chanel__com/skus_relative/rouge-allure-ink--170-euphorie-6ml.3145891651706.jpg",
+                    "goods_name": "CHANEL 香奈儿炫亮魅力柔雾唇釉 口红#978",
+                    "goods_num": "3",
+                    "goods_price": "330.00"
+                },
+                {
+                    "goods_id": "333332",
+                    "goods_image": "https://img.alicdn.com/bao/uploaded/i1/2981481474/O1CN01hCXZtL1Ml8OFx6NqA_!!2981481474.jpg_400x400.jpg",
+                    "goods_name": " wassup2020ss夏季新款渐变双色混纺防泼水华达呢短裤宽松百搭短裤 ",
+                    "goods_num": "3",
+                    "goods_price": "189.00"
+                },
+                {
+                    "goods_id": "333333",
+                    "goods_image": "https://img11.360buyimg.com/n7/jfs/t1/94869/19/14031/148839/5e5fe263Eb3704e29/980e11a214afa6d7.jpg",
+                    "goods_name": "Skechers斯凯奇情侣款户外老爹鞋熊猫鞋休闲运动鞋小白鞋",
+                    "goods_num": "3",
+                    "goods_price": "329.00"
+                }
+            ],
+            "store_id": "3",
+            "store_name": "李加慧的小商店"
+        }
+    ]
+}

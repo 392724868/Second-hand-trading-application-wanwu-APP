@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:background="#E8E8E8"
+  android:layout_height="match_parent">
+  <include layout="@layout/order_top"/>
+  <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#CFCFCF" />
+  <ListView 
+      android:id="@+id/list_order"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+  </ListView>
+     
+</LinearLayout>

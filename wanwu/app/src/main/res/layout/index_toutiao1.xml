@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="#FFFFFF"
+    android:layout_height="35dp">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="2"
+        android:src="@drawable/qing"/>
+
+    <TextView
+        android:id="@+id/scroll_mes1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="7"
+        android:text="免除交付手续费啦"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="18dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/arrowright"/>
+</LinearLayout>

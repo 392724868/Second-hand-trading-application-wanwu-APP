@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical">
+    <ViewFlipper
+        android:id="@+id/marquee_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="35dp"
+        android:autoStart="true"
+        android:flipInterval="2500"
+        android:inAnimation="@drawable/anim_marquee_in"
+        android:outAnimation="@drawable/anim_marquee_out" >
+    </ViewFlipper>
+</LinearLayout>
